@@ -8,5 +8,12 @@ void setup() {
 }
 
 void loop() {
-
+  lcd.setBacklight(HIGH);
+  lcd.setCursor(0,0);
+  lcd.print("Eureka!");
+  lcd.setCursor(0,1);
+  lcd.print("Ass Rojao");
+  delay(1000);
+  lcd.setBacklight(LOW);
+  delay(1000);
 }
